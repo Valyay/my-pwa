@@ -1,0 +1,21 @@
+{
+	"start_url": "/",
+	"name": "PWA",
+	"display": "minimal-ui",
+	"icons": [
+		{
+			"src": "image/did-logo.png",
+			"sizes": "144x144",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "image/did-logo.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"background_color": "#3367D6",
+	"theme_color": "#317EFB"
+}
