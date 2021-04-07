@@ -16,6 +16,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-    - name: Jekyll Builder for GitHub Pages
-      uses: fabacab/jekyll-builder-for-github-pages-action@v1
 
